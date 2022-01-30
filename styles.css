@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color: darkgray;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+header {
+    background-color: ghostwhite;
+}
+
+
+section {
+    background-color: ghostwhite;
+}
+
+
+h1 {
+    color: rgb(197, 90, 90);
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
+}
+
+h2 {
+    margin: 25px;
+    padding: 25px;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(197, 90, 90);
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #525454;
+}
+
+p {
+    padding: 0 20px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+.aboutme {
+    color: black;
+}
+
+
+.profile-image {
+    align-self: center;
+    width: 240px;
+    margin: 40px;
+}
+
+
+.image {
+    width: 320px;
+    height: auto;
+}
+
+.col {
+    margin: 8px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.skills-disc {
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.header-nav a {
+	text-align: center;
+    display: block;
+	padding: 10px 15px;
+    background-color: white;
+    margin: 5px;
+}
+.header-nav a {
+	font-size: .95em;
+	color: #525454;
+	text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+.footer-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+    background-color: white;
+    margin: 5px;
+}
+.footer-nav a {
+	font-size: .95em;
+	color: black;
+	text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: ghostwhite;
+}
+
+.main-footer, .footer-nav {
+    display: flex;
+
+}
+
+
+.li-3 {
+    display: none;
+}
+
+.main-footer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media screen and (min-width: 768px) {
+  .main-header, .header-nav {
+      display: flex;
+  }  
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .head-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .profile-image {
+    order: 1;
+}
+
+   .main-article {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   .col {
+       flex: 1 300px;
+   }
+
+   .li-2 {
+       display: none;
+   }
+
+   .li-3 {
+    display: flex;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }  
+}
