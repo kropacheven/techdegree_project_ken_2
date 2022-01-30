@@ -1,2 +1,3 @@
 # techdegree_project_ken_2
- techdegree project 2 renewed
+See the project online: https://kropacheven.github.io/techdegree_project_ken_2/
+
